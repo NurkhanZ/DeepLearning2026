@@ -1,0 +1,17 @@
+{
+  "weights": "weights/best.pt",
+  "imgsz": 640,
+  "prediction_conf_threshold": 0.25,
+  "nms_iou_threshold": 0.5,
+  "eval_iou_threshold": 0.5,
+  "test_precision": 0.9641,
+  "test_recall": 0.9388,
+  "test_map50": 0.9738,
+  "test_map50_95": 0.8271,
+  "test_per_class_map50": {
+    "buffalo": 0.9712,
+    "elephant": 0.9629,
+    "rhino": 0.9913,
+    "zebra": 0.9699
+  }
+}

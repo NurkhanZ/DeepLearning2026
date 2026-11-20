@@ -1,0 +1,56 @@
+[
+  {
+    "case": 1,
+    "image": "3 (55).jpg",
+    "missed": 0,
+    "false_positives": 1,
+    "wrong_class": 1,
+    "gt_classes": [
+      "rhino",
+      "rhino"
+    ],
+    "pred_classes": [
+      "rhino (0.77)",
+      "buffalo (0.58)",
+      "rhino (0.36)"
+    ]
+  },
+  {
+    "case": 2,
+    "image": "1 (376).jpg",
+    "missed": 2,
+    "false_positives": 1,
+    "wrong_class": 0,
+    "gt_classes": [
+      "buffalo",
+      "buffalo",
+      "buffalo",
+      "buffalo",
+      "buffalo"
+    ],
+    "pred_classes": [
+      "buffalo (0.94)",
+      "buffalo (0.94)",
+      "buffalo (0.92)",
+      "buffalo (0.29)"
+    ]
+  },
+  {
+    "case": 3,
+    "image": "4 (105).jpg",
+    "missed": 0,
+    "false_positives": 3,
+    "wrong_class": 0,
+    "gt_classes": [
+      "zebra",
+      "zebra"
+    ],
+    "pred_classes": [
+      "zebra (0.93)",
+      "zebra (0.88)",
+      "elephant (0.82)",
+      "elephant (0.70)",
+      "elephant (0.61)"
+    ]
+  }
+]

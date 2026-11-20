@@ -1,0 +1,60 @@
+{
+  "removed_exact_duplicates": {
+    "train": 0,
+    "val": 0,
+    "test": 0
+  },
+  "splits": {
+    "train": {
+      "images": 1036,
+      "objects": 1904,
+      "per_class": {
+        "buffalo": 393,
+        "elephant": 558,
+        "rhino": 388,
+        "zebra": 565
+      }
+    },
+    "val": {
+      "images": 216,
+      "objects": 364,
+      "per_class": {
+        "buffalo": 85,
+        "elephant": 87,
+        "rhino": 81,
+        "zebra": 111
+      }
+    },
+    "test": {
+      "images": 211,
+      "objects": 352,
+      "per_class": {
+        "buffalo": 63,
+        "elephant": 96,
+        "rhino": 69,
+        "zebra": 124
+      }
+    }
+  },
+  "issues": {
+    "train": {
+      "missing_labels": 0,
+      "empty_labels": 0,
+      "invalid_boxes": 0,
+      "unreadable_images": 0
+    },
+    "val": {
+      "missing_labels": 0,
+      "empty_labels": 0,
+      "invalid_boxes": 0,
+      "unreadable_images": 0
+    },
+    "test": {
+      "missing_labels": 0,
+      "empty_labels": 0,
+      "invalid_boxes": 0,
+      "unreadable_images": 0
+    }
+  },
+  "cross_split_duplicates_after_cleaning": 0
+}

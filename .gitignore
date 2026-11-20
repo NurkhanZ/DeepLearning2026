@@ -1,0 +1,8 @@
+misc/
+data/
+runs/
+*.pt
+!weights/best.pt
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

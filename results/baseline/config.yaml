@@ -1,0 +1,10 @@
+run_name: baseline
+model: yolov8n.pt
+data: configs/dataset.yaml
+imgsz: 416
+epochs: 25
+batch: 16
+lr0: 0.01
+seed: 12345
+workers: 4
+

@@ -1,0 +1,10 @@
+run_name: experiment
+model: yolov8n.pt
+data: configs/dataset.yaml
+imgsz: 640
+epochs: 25
+batch: 16
+lr0: 0.01
+seed: 12345
+workers: 4
+

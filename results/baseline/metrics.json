@@ -1,0 +1,24 @@
+{
+  "run_name": "baseline",
+  "framework": "ultralytics==8.3.49",
+  "torch": "2.5.1+cu124",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "model": "yolov8n.pt",
+  "imgsz": 416,
+  "epochs": 25,
+  "batch": 16,
+  "lr0": 0.01,
+  "seed": 12345,
+  "training_time_sec": 226.6,
+  "best_weights": "runs\\baseline\\weights\\best.pt",
+  "val_precision": 0.9165,
+  "val_recall": 0.8798,
+  "val_map50": 0.9404,
+  "val_map50_95": 0.7941,
+  "val_per_class_map50": {
+    "buffalo": 0.9614,
+    "elephant": 0.904,
+    "rhino": 0.9647,
+    "zebra": 0.9314
+  }
+}

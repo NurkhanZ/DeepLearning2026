@@ -1,0 +1,24 @@
+{
+  "run_name": "experiment",
+  "framework": "ultralytics==8.3.49",
+  "torch": "2.5.1+cu124",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "model": "yolov8n.pt",
+  "imgsz": 640,
+  "epochs": 25,
+  "batch": 16,
+  "lr0": 0.01,
+  "seed": 12345,
+  "training_time_sec": 276.4,
+  "best_weights": "runs\\experiment\\weights\\best.pt",
+  "val_precision": 0.9513,
+  "val_recall": 0.8891,
+  "val_map50": 0.9531,
+  "val_map50_95": 0.7928,
+  "val_per_class_map50": {
+    "buffalo": 0.974,
+    "elephant": 0.9211,
+    "rhino": 0.9655,
+    "zebra": 0.9516
+  }
+}
