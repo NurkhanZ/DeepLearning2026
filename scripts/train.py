@@ -4,10 +4,14 @@ import shutil
 import time
 from pathlib import Path
 
+import numpy as np
 import torch
 import ultralytics
 import yaml
 from ultralytics import YOLO
+
+if not hasattr(np, "trapz"):
+    np.trapz = np.trapezoid
 
 
 def resolve_dataset_yaml(yaml_path, out_path):

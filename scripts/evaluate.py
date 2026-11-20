@@ -5,8 +5,12 @@ from pathlib import Path
 
 import cv2
 import matplotlib.pyplot as plt
+import numpy as np
 import yaml
 from ultralytics import YOLO
+
+if not hasattr(np, "trapz"):
+    np.trapz = np.trapezoid
 
 CLASS_NAMES = {0: "buffalo", 1: "elephant", 2: "rhino", 3: "zebra"}
 COLORS = {0: (220, 50, 50), 1: (50, 140, 220), 2: (50, 180, 90), 3: (230, 150, 20)}
