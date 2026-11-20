@@ -10,7 +10,7 @@
   "lr0": 0.01,
   "seed": 12345,
   "training_time_sec": 276.4,
-  "best_weights": "runs\\experiment\\weights\\best.pt",
+  "best_weights": "runs/experiment/weights/best.pt",
   "val_precision": 0.9513,
   "val_recall": 0.8891,
   "val_map50": 0.9531,

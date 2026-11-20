@@ -80,7 +80,7 @@ def main():
         "lr0": cfg["lr0"],
         "seed": cfg["seed"],
         "training_time_sec": train_seconds,
-        "best_weights": str(best_weights),
+        "best_weights": best_weights.as_posix(),
         "val_precision": round(float(val_res.box.mp), 4),
         "val_recall": round(float(val_res.box.mr), 4),
         "val_map50": round(float(val_res.box.map50), 4),
